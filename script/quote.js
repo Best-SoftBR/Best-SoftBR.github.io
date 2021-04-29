@@ -32,3 +32,20 @@ function adicionar() {
   document.getElementById("BTNs").scrollIntoView();
 
 }
+
+function Remover() {
+    let label = "label" + anterior
+    let input = "input" + anterior
+    let qbl1 = "qbl1" + anterior
+    let qbl2 = "qbl2" + anterior
+  
+  
+    //let teste = document.getElementById('form')
+    document.getElementById(label).remove()
+    document.getElementById(input).remove()
+    document.getElementById(qbl1).remove()
+    document.getElementById(qbl2).remove()
+    atual--
+    anterior--
+  
+}
