@@ -1,0 +1,61 @@
+
+#mapid{
+  display: inline-block;
+  width: 50%;
+  height: 30vw;
+  margin-left: 10px;
+  margin-top: 10px;
+}
+
+#titleMap{
+  position: relative;
+  display: inline-block;
+  font-family: 'Nunito Sans', sans-serif;
+  bottom: 27.8vw;
+  margin-left: 17%;
+}
+#descricaoMap{
+  position: relative;
+  display: inline-block;
+  font-family: 'Quicksand', sans-serif;
+  /* font-size: 1.2vw; */
+  margin-left: 63.3%;
+  bottom: 27.7vw;
+}
+.dados{
+  position: relative;
+  font-family: 'Nunito Sans', sans-serif;
+  margin-left: 52%;
+  bottom: 23vw;
+}
+#filiaisShow{
+  width: 10%;
+  height: 2vw;
+  margin-top: 10px;
+  margin-left: 5%;
+  border: none;
+  outline: none;
+  background-color: #07828D;
+  color: white;
+  font-family: 'Nunito Sans', sans-serif;
+  font-size: 1.2vw;
+  box-shadow: 0 0 0.5em #636e72;
+}
+
+.dados div{
+    text-align: center;
+    display: inline-block;
+    width: 4vw;
+    height: 4vw;
+    margin-top: 10px;
+    margin-left: 5px;
+    margin-bottom: 10px;
+    border-radius: 70px;
+}
+
+.dados div i{
+    position: relative;
+    font-size: 2.2vw;
+    color: black;
+    top: 10px;
+}
