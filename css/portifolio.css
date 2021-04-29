@@ -1,0 +1,82 @@
+.flex-container {
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1600px;
+    /* margin-left: 280px; */
+    /* background-color: DodgerBlue; */
+  }
+  
+  .flex-container>div {
+    /* background-color: Black; */
+    width: 30%;
+    max-width: 500px;
+    height: 70vw;
+    margin: 15px;
+    /* text-align: center; */
+    line-height: 75px;
+    font-size: 30px;
+    /* box-shadow: 0 0 0.5em Black; */
+  }
+  
+  #pessoa {
+    width: 51%;
+    height: 22%;
+    border-radius: 150px;
+    border-width: 3px;
+    border-style: solid;
+    border-color: #07828D;
+    box-shadow: 0 0 0.7em Black;
+    margin-left: 25%;
+    cursor: pointer;
+  }
+  
+  #pessoa:hover {
+    -webkit-transform: scale(0.9);
+    -ms-transform: scale(0.9);
+    transform: scale(0.9);
+    transition: 0.3s ease;
+  }
+  
+  #nome {
+    position: relative;
+    font-size: 2.2vw;
+    margin-left: 20%;
+    bottom: 50px;
+    font-family: 'Nunito Sans', sans-serif;
+    color: #2d3436;
+  }
+  
+  #descrição {
+    position: relative;
+    font-size: 1.07vw;
+    line-height: 18px;
+    width: 60%;
+    text-align: left;
+    /* hyphens: auto; */
+    margin-left: 20%;
+    bottom: 63px;
+    font-family: 'Quicksand', sans-serif;
+  }
+  
+  .redes div {
+    text-align: center;
+    display: inline-block;
+    width: 4vw;
+    height: 4vw;
+    border-radius: 70px;
+  }
+  
+  .redes div a {
+    position: relative;
+    bottom: 0.8vw;
+    font-size: 2.2vw;
+    color: black;
+  }
+  
+  .redes {
+    position: relative;
+    margin-left: 50px;
+    bottom: 20px;
+    margin-left: 45%;
+  }
