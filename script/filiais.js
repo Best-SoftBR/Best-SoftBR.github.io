@@ -19,3 +19,48 @@ L.marker([-6.887849, -38.543479], {customId:"56", icon: markerIcon}).addTo(map).
 L.marker([-7.146604, -34.841089], {icon: markerIcon}).addTo(map).on('click', RunFilial);
 L.marker([-6.765757, -38.228561], {icon: markerIcon}).addTo(map).on('click', RunFilial);
 L.marker([-3.755840, -38.546759], {icon: markerIcon}).addTo(map).on('click', RunFilial);
+
+function RunFilial(e) {
+  if (e.latlng['lat'] == -6.887849) {
+    document.getElementById('titleED').innerHTML = "Best Soft - Cajazeiras-PB"
+    document.getElementById('ed').innerHTML = "Endereço: Rua Protásio de Sousa Lima, Número 303 - Jardim Oásis"
+    document.getElementById('tel').innerHTML = "Telefone: (83) 9 9943-0272"
+    document.getElementById('email').innerHTML = "E-mail: cajazeiras@best_soft.com"
+
+    document.getElementById('dados').style.display = "block";
+    document.getElementById('filiaisShow').style.display = "block";
+  }
+  else if(e.latlng['lat'] == -7.146604) {
+    document.getElementById('titleED').innerHTML = "Best Soft - João Pessoa-PB"
+    document.getElementById('ed').innerHTML = "Endereço: R. Bancário Manoel Geraldo da Silva, 224 - Bancários"
+    document.getElementById('tel').innerHTML = "Telefone: (83) 9 9933-2352"
+    document.getElementById('email').innerHTML = "E-mail: joao-pessoa@best_soft.com"
+
+    document.getElementById('dados').style.display = "block";
+    document.getElementById('filiaisShow').style.display = "block";
+  }
+  else if(e.latlng['lat'] == -6.765757) {
+    document.getElementById('titleED').innerHTML = "Best Soft - Sousa-PB"
+    document.getElementById('ed').innerHTML = "Endereço: R. Sinfrônio Nazaré, 120 - Maria Lourdes S Meir"
+    document.getElementById('tel').innerHTML = "Telefone: (83) 9 9463-3382"
+    document.getElementById('email').innerHTML = "E-mail: sousa@best_soft.com"
+
+    document.getElementById('dados').style.display = "block";
+    document.getElementById('filiaisShow').style.display = "block";
+  }
+  else{
+    document.getElementById('titleED').innerHTML = "Best Soft - Fortaleza-CE"
+    document.getElementById('ed').innerHTML = "Endereço: Rua Frei Orlando, 176-300 - Bom Futuro"
+    document.getElementById('tel').innerHTML = "Telefone: (88) 9 9523-2472"
+    document.getElementById('email').innerHTML = "E-mail: fortaleza@best_soft.com"
+
+    document.getElementById('dados').style.display = "block";
+    document.getElementById('filiaisShow').style.display = "block";
+  }
+  map.setView(e.latlng, 19);
+}
+
+function ResetMap() {
+  map.setView([-6.887849, -38.543479], 6);
+  document.getElementById('dados').style.display = "none"
+}
