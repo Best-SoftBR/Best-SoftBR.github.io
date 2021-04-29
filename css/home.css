@@ -1,0 +1,125 @@
+
+.intro img{
+  position: relative;
+  width: 100%;
+  height: 55vw;
+  transform: scaleX(-1);
+}
+
+.intro h1{
+  position: absolute;
+  font-family: 'Nunito Sans', sans-serif;
+  font-weight: 200;
+  font-size: 4.1vw;
+  color: white;
+  top: 22vw;
+  left: 4vw;
+}
+.intro h5{
+  position: absolute;
+  font-family: 'Quicksand', sans-serif;
+  font-size: 1.7vw;
+  font-weight: 100;
+  left: 9.5vw;
+  color: white;
+  top: 26.7vw;
+}
+.intro button{
+  position: absolute;
+  font-family: 'Nunito Sans', sans-serif;
+  font-size: 1.2vw;
+  font-weight: 100;
+  left: 20vw;
+  top: 30vw;
+  width: 10%;
+  height: 6%;
+  background-color: #07828D;
+  color: white;
+  border: none;
+  outline: none;
+  box-shadow: 0 0 0.2em white;
+}
+
+.specs{
+  display: flex;
+  flex-wrap: nowrap;
+  width: 100%;
+  height: 600px;
+  margin-top: 5px;
+  /* background-color: blue; */
+}
+.specs div{
+  margin-left: 4.2vw;
+  margin-top: 20px;
+  border-radius: 150px;
+  width: 20%;
+  height: 41%;
+  box-shadow: 0 0 1em #636e72;
+  /* background-color: blue; */
+}
+
+.specs div h3{
+  margin-top: 21vw;
+  margin-left: 5vw;
+  font-size: 1.7vw;
+  font-family: 'Nunito Sans', sans-serif;
+  color: #2d3436;
+  /* background-color: blue; */
+}
+
+.specs div p{
+  hyphens: auto;
+  color: #2d3436;
+  text-align: justify;
+  font-size: 1.3vw;
+  font-family: 'Quicksand', sans-serif;
+  /* background-color: blue; */
+}
+
+.specs div button{
+  color: white;
+  border: none;
+  outline: none;
+  width: 32%;
+  height: 12%;
+  margin-top: 6%;
+  margin-left: 33%;
+  background-color: #07828D;
+  font-size: 1.1vw;
+  box-shadow: 0 0 0.5em #636e72;
+  /* background-color: blue; */
+}
+
+a {
+    text-decoration: none !important;
+    font-family: 'Cabin', sans-serif;
+    color: white;
+}
+
+#specsTitle{
+  text-align: center;
+  font-family: 'Nunito Sans', sans-serif;
+  margin-top: 30px;
+  margin-bottom: 40px;
+}
+
+#apps{
+  background-image: url("https://cdn.dribbble.com/users/508588/screenshots/11263771/thg_m78_09_4x.jpg");
+  /* background-repeat: no-repeat, repeat; */
+  background-size: cover;
+}
+#sites{
+  background-image: url("https://www.iwantclarity.com/wp-content/uploads/2018/10/Website-Redesign-More-Than-Just-Aesthetics@2x-100.jpg");
+  /* background-repeat: no-repeat, repeat; */
+  background-size: cover;
+}
+#data{
+  background-image: url("https://img.freepik.com/free-vector/big-data-center-server-room-rack-engineering-process-teamwork-computer-technology-cloud-storage_39422-1032.jpg?size=626&ext=jpg");
+  /* background-repeat: no-repeat, repeat; */
+  background-size: cover;
+}
+#softwares{
+  background-image: url("https://cdn.dribbble.com/users/508588/screenshots/11263679/thg_m78_05_4x.jpg");
+  /* background-repeat: no-repeat, repeat; */
+  background-size: cover;
+}
