@@ -20,5 +20,9 @@
 ### * SoftWare Para PC,  trazendo opções de programas que mais vais precisar no teu dia-a-dia.
 <p align="center">
   <img src="https://github.com/Best-SoftBR/Best-SoftBR.github.io/blob/main/images/soft%20imagem%2004.jpg"250px" height="150px"/></p>
+                                                                                                                              
+   ### Então o que você proura é qualidade e ótimo desempenho?
+   <p align="center">
+  <img src="https://github.com/Best-SoftBR/Best-SoftBR.github.io/blob/main/images/gif.gif"100 height="50x"/></p>
 
 
