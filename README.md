@@ -2,7 +2,7 @@
 
 ## Quem somos?
 
-### Uma empresa que nasceu para facilitar sua vida, oferecendo a melhor qualidade em serviço,por uma preço acessível. Trabalhamos com diversas plataformas oferecendo a você o que há de melhor.
+### Uma empresa criada para facilitar sua vida, oferecendo a melhor qualidade em serviço, por uma preço acessível. Trabalhamos com diversas plataformas oferecendo a você o que há de melhor.
 
 ## Quais serviços oferecemos?
 ### *Mobile Apps, desenvolvendo software de dispositivo eletrônico móvel como Celular, Smartv, Smartphone e Tablets
