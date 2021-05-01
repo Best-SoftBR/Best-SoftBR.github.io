@@ -13,7 +13,7 @@
 <p align="center">
   <img src="https://github.com/Best-SoftBR/Best-SoftBR.github.io/blob/main/images/web%20imagem%2002.png" width="250px" height="150px"/></p>
 
-### * DataCenter,  oferecendo uma infinidade de servidores e bancos de dados, além de processar grandes quantidades de informação.
+### * Data Center,  oferecendo uma infinidade de servidores e bancos de dados, além de processar grandes quantidades de informação.
 <p align="center">
   <img src="https://github.com/Best-SoftBR/Best-SoftBR.github.io/blob/main/images/DataCenter.jpg"250px" height="150px"/></p>
 
